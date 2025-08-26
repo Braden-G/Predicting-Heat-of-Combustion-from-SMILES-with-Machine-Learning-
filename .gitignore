@@ -1,0 +1,61 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# Data and model artifacts
+*.npy
+*.npz
+*.h5
+*.pkl
+*.csv
+*.xls
+*.xlsx
+*.json
+*.log
+*.db
+*.sqlite
+*.parquet
+*.feather
+*.pt
+*.ckpt
+
+# Environment files
+.env
+.venv
+env/
+venv/
+ENV/
+
+# VSCode
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# TensorBoard logs
+logs/
+
+# Ignore embeddings and large data
+embeddings/
+data/
+
+# Python egg files
+*.egg
+*.egg-info/
+dist/
+build/
+
+egg-info/
+
+# Misc
+*.swp
+*.bak
+*.tmp

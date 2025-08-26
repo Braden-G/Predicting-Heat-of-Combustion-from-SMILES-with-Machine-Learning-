@@ -1,0 +1,30 @@
+
+
+show json objects and the steps to process them 
+and pair them based on SourceID
+
+** Diagram about training the model **
+    SVM or Neural Net
+
+Explain the chemistry behind the process
+
+Reach out to Dr. Rowley about more data points
+
+Use K-fold cross validation
+
+explain the packages used to create model
+
+
+CID	SMILES	Prediction	Target	Discrepancy
+	Least Accurate			
+848	C1=CC=C2C(=C1)C3=CC=CC=C3N2	5883.733398	10040.60	4156.866602
+756	C(CCC(=O)O)CC(=O)O	1313.392212	4863.73	3550.337788
+154	CC(C)(COP(=O)(O)OP(=O)(O)OCC1C(C(C(O1)N2C=NC3=...	1595.080566	4817.00	3221.919434
+427	CSCCC(=O)C(=COP(=O)(O)O)O	1313.392212	-1789.00	3102.392212
+	Most Accurate			
+630	[O+]#[C-]	-263.719391	-282.952	19.232609
+72	OCC	-1448.853638	-1460.410	11.556362
+701	FCCF	-1212.659424	-1212.140	0.519424
+
+
+
