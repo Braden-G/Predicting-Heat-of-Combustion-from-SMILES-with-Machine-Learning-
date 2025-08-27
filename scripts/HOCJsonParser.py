@@ -4,9 +4,9 @@ import re
 
 
 # Input JSON file path
-json_file_path = "PubchemData/pubchemdata.json"
+json_file_path = "data/pubchemdata.json"
 # Output CSV file path
-output_csv = "pubchemFilteredDataNoKj.csv"
+output_csv = "data/pubchemFilteredDataNoKj.csv"
  
 # Read JSON data from file
 with open(json_file_path, "r", encoding="utf-8") as json_file:

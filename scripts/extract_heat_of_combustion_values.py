@@ -11,9 +11,9 @@ def convert_subscript(formula):
         return cleaned_formula
     return formula  # Return unchanged if no \n
 
-with open('standard_state.csv', mode='a', newline='') as file:
+with open('data/standard_state.csv', mode='a', newline='') as file:
     writer = csv.writer(file)
-    with pdfplumber.open("NIST.TN.2126.pdf") as pdf:
+    with pdfplumber.open("data/NIST.TN.2126.pdf") as pdf:
         # Pages where heat of combustion data is present
         for pages in tqdm.tqdm(range(361, 380), desc="Processing pages"):
             page = pdf.pages[pages]
