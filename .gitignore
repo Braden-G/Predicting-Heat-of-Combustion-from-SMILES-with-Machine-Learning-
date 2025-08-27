@@ -43,9 +43,6 @@ Thumbs.db
 # TensorBoard logs
 logs/
 
-# Ignore embeddings and large data
-embeddings/
-data/
 
 # Python egg files
 *.egg
